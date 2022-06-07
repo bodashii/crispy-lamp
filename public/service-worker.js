@@ -27,7 +27,7 @@ self.addEventListener('activate', function (e) {
 
             return Promise.all(
                 keyList.map(function (key, i) {
-                    if (cacheKeepList.indexOf(key === -1) {
+                    if (cacheKeepList.indexOf(key) === -1) {
                         console.log('deleting cache : ' + keyList[i]);
                         return caches.delete(keyList[i]);
                     }
@@ -38,7 +38,7 @@ self.addEventListener('activate', function (e) {
 });
 
 self.addEventListener('fetch', function (e) {
-    console.log('fetche request : ' + e.request.url)
+    console.log('fetch request : ' + e.request.url)
     e.respondWith(
         caches.match(e.request).then(function (requrest) {
             if (request) {

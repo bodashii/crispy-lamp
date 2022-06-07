@@ -1,0 +1,48 @@
+{
+    "name": "MADMoney: budget tracking",
+    "short_name": "MADM",
+    "icons": [
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/icons/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      }
+    ],
+    "start_url": "https://madm.herokuapp.com/",
+    "display": "fullscreen"
+}
